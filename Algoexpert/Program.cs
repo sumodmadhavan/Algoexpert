@@ -3,11 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 
 namespace Algoexpert
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
             //int[] arr = { 2,3,5,7,8 };
@@ -69,9 +71,9 @@ namespace Algoexpert
 
             #region Fib
 
-            Fibonaci fib = new Fibonaci(9);
+            //Fibonaci fib = new Fibonaci(9);
             //var fibN = fib.getFibOptim(9);
-            fib.GetFibwithProd(9);
+            //fib.GetFibwithProd(9);
             //Console.Write(fibN);
             //Console.Write(fibNP);
             //Console.Write(fib.MemoResult);
@@ -113,10 +115,10 @@ namespace Algoexpert
             #endregion
 
             #region <<SumOPerations>>
-            var result = new SumOPerations();
-            int[] array = { 0, -8, 9, 3, 7, 1, 6, -2, 4, -9 };
-            int[] triplearray = { 1,2,2,2,4};
-            result.FindThreenumSum(triplearray, 8);
+            //var result = new SumOPerations();
+            //int[] array = { 0, -8, 9, 3, 7, 1, 6, -2, 4, -9 };
+            //int[] triplearray = { 1,2,2,2,4};
+            //result.FindThreenumSum(triplearray, 8);
 
             //int[] array = { 7, 6, 4, -1, 1, 2 };
             //var finalRes = result.FournumberSum(array, 16);
@@ -354,8 +356,13 @@ namespace Algoexpert
             #endregion
 
             #region <<Suffix Trie>>
-            //var result = new SuffixTrie("babc");
-            //var oup = result.searchTrie("abc");
+            //List<string> dicto = new List<string>();
+            //dicto.Add("hello");
+            //dicto.Add("holl");
+            //dicto.Add("hit");
+            //dicto.Add("hell");
+            ////var trieResult = new PhoneSearchTrie(dicto);
+            ////var oup = trieResult.searchTrie("he");
             //Console.Write(oup);
             #endregion
 
